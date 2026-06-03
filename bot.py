@@ -12,8 +12,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # This decorator listens for the /start command
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    welcome_text = "I passed my challenge within just 6 days using this EA 🔥📊
-"
+    welcome_text = "💬 Join discussions, get updates, and connect with other"
     bot.reply_to(message, welcome_text)
 
 # This keeps the bot running and listening for messages
